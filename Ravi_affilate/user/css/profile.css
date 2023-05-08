@@ -1,0 +1,90 @@
+div.body_head {
+    border-radius: 10px;
+    padding: 20px;
+
+    width: 1270px;
+    height: 500px;
+    margin: 20px;
+    background: linear-gradient(45deg, blueviolet, lightgreen);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 50px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+[class*="col-"] {
+    float: left;
+    padding: 20px;
+}
+
+div.row {
+    border-radius: 10px;
+    width: 370px;
+    height: 500px;
+    margin: 20px;
+    padding: 10px;
+    background: linear-gradient(45deg, blueviolet, lightgreen);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 50px;
+    display: grid;
+    float: left;
+}
+
+.user-name {
+    width: 300px;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid rgb(26, 16, 16);
+    text-align: left;
+}
+
+
+
+
+
+.note .h2 {
+    text-align: left;
+}
+
+.danger {
+    background-color: #ffdddd;
+    border-left: 6px solid #f44336;
+    margin-bottom: 10px;
+    padding: 20px 15px;
+}
+
+.success {
+    background-color: #ddffdd;
+    border-left: 6px solid #04AA6D;
+}
+
+.info {
+    background-color: #e7f3fe;
+    border-left: 6px solid #2196F3;
+}
+
+
+.warning {
+    background-color: #ffffcc;
+    border-left: 6px solid #ffeb3b;
+}
+
+s image {
+    margin-top: 4%;
+    border-radius: 50%;
+    padding-left: 5%;
+
+
+}
+
+.image.h1 {
+    color: #ddffdd;
+}
+
+.image .h2 {
+    color: #ddffdd;
+}

@@ -1,0 +1,762 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: poppins;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background: linear-gradient(45deg, blueviolet, lightgreen);
+
+  color: white;
+  padding: 20px 0;
+}
+
+header nav a {
+  color: white;
+  margin-right: 30px;
+  font-weight: 500;
+}
+
+header div.sign-in-up button {
+  background-color: #75cfb8;
+  font-size: 16px;
+  font-weight: 550;
+  padding: 4px 12px;
+  border: 2px solid #000;
+  border-radius: 5px;
+  outline: none;
+  margin-left: 20px;
+}
+
+header div.sign-in-up button:last-child {
+  background-color: #fa9579;
+}
+
+div.popup-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+div.popup-container div.popup {
+  background-color: #f0f0f0;
+  width: 350px;
+  border-radius: 5px;
+  padding: 20px 25px 30px 25px;
+}
+
+div.popup-container div.popup h2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  color: #30475e;
+}
+
+div.popup-container div.popup h2 button {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  font-size: 18px;
+  font-weight: 550;
+  color: #797775;
+}
+
+div.popup-container div.popup input {
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #30475e;
+  border-radius: 0;
+  padding: 5px 0;
+  font-weight: 550;
+  font-size: 14px;
+  outline: none;
+}
+
+div.popup-container div.popup button.login-btn,
+div.popup-container div.register button.register-btn {
+  font-weight: 550;
+  font-style: 15px;
+  color: white;
+  background-color: #30475e;
+  padding: 4px 10px;
+  border: none;
+  outline: none;
+  margin-top: 5px;
+}
+
+div.popup-container div.register {
+  background-color: #edeef7;
+}
+
+div.popup-container div.register h2 {
+  color: #fa9579;
+}
+
+div.popup-container div.register input {
+  border-bottom-color: #fa9579;
+}
+
+div.popup-container div.register button.register-btn {
+  background-color: #fa9579;
+}
+
+div.user {
+  color: #30475e;
+  background-color: #75cfb8;
+  padding: 5px 15px;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+div.user a {
+  color: #30475e;
+}
+
+h3.box {
+  background-color: lightseagreen;
+  width: 700px;
+  font-weight: 600;
+  margin: 0 auto;
+  padding: 8px 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+h3.box a {
+  color: black;
+}
+
+/* This css is for Automativc image  #index.php */
+.automatic_img_section img {
+  margin-top: 40px;
+  padding-left: 200px;
+  width: 1100px;
+  height: 450px;
+
+  float: center;
+}
+
+.mySlides {
+  display: center;
+}
+
+/* this is for why choice content in #index.php comment*/
+.choise {
+
+  margin: 100px;
+  padding: 10px;
+  padding-left: 80px;
+}
+
+div.polaroid {
+
+  padding: 10px;
+  width: 25%;
+  margin: 30px;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  float: left;
+}
+
+div.choise-container {
+  text-align: down;
+  padding: 10px 20px;
+}
+
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* this css is for course section in #index.php comment*/
+
+* {
+  font-family: 'Poppins', sans-serif;
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: .2s linear;
+  border-radius: 15px;
+
+}
+
+.container {
+
+  background: linear-gradient(45deg, blueviolet, lightgreen);
+
+  padding: 15px 9%;
+
+}
+
+.container .heading {
+  text-align: center;
+
+  padding-bottom: 15px;
+  color: #fff;
+  text-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+  font-size: 50px;
+}
+
+.container .box-container {
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 20px;
+}
+
+.container .box-container .box {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+  border-radius: 5px;
+  background: #fff;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.container .box-container .box img {
+  height: 80px;
+}
+
+.container .box-container .box h3 {
+  color: #444;
+  font-size: 22px;
+  padding: 10px 0;
+}
+
+.container .box-container .box p {
+  color: #777;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.container .box-container .box .btn {
+  margin-top: 10px;
+  display: inline-block;
+  background: #333;
+  color: #fff;
+  font-size: 17px;
+  border-radius: 5px;
+  padding: 8px 25px;
+}
+
+.container .box-container .box .btn:hover {
+  letter-spacing: 1px;
+}
+
+.container .box-container .box:hover {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, .3);
+  transform: scale(1.03);
+}
+
+@media (max-width:768px) {
+  .container {
+    padding: 20px;
+  }
+}
+
+/*  this css is for team section*/
+* {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: all .2s linear;
+}
+
+body {
+  background-color: #dc143c22;
+}
+
+.team-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 25px 20px;
+}
+
+.team-container .team-heading {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #334;
+}
+
+.team-container .team-box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 20px;
+}
+
+.team-container .team-box-container .team-box {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+  display: none;
+}
+
+.team-container .team-box-container .team-box:nth-child(1),
+.team-container .team-box-container .team-box:nth-child(2),
+.team-container .team-box-container .team-box:nth-child(3) {
+  display: inline-block;
+}
+
+.team-container .team-box-container .team-box .image {
+  margin-bottom: 20px;
+  overflow: hidden;
+  height: 250px;
+  border-radius: 5px;
+}
+
+.team-container .team-box-container .team-box .image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.team-container .team-box-container .team-box:hover .image img {
+  transform: scale(1.1);
+}
+
+.team-container .team-box-container .team-box .content h3 {
+  font-size: 20px;
+  color: #334;
+}
+
+.team-container .team-box-container .team-box .team-content p {
+  font-size: 15px;
+  color: #777;
+  line-height: 2;
+  padding: 15px 0;
+}
+
+.team-container .team-box-container .team-box .team-content .btn {
+  display: inline-block;
+  padding: 10px 30px;
+  border: 1px solid #334;
+  color: #334;
+  font-size: 16px;
+}
+
+.team-container .team-box-container .team-box .team-content .btn:hover {
+  background-color: crimson;
+  border-color: crimson;
+  color: #fff;
+}
+
+.team-container .team-box-container .team-box .team-content .icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top: 1px solid #334;
+}
+
+.team-container .team-box-container .team-box .team-content .icons span {
+  font-size: 14px;
+  color: #777;
+}
+
+.team-container .team-box-container .team-box .team-content .icons span i {
+  color: crimson;
+  padding-right: 5px;
+}
+
+#load-more {
+  margin-top: 20px;
+  display: inline-block;
+  padding: 13px 30px;
+  border: 1px solid #334;
+  color: #334;
+  font-size: 16px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+#load-more:hover {
+  background-color: crimson;
+  border-color: crimson;
+  color: #fff;
+}
+
+@media (max-width:450px) {
+
+  .team-container .team-heading {
+    font-size: 25px;
+  }
+
+  .team-container .team-box-container {
+    grid-template-columns: 1fr;
+  }
+
+  .team-container .team-box-container .team-box .image {
+    height: 200px;
+  }
+
+  .team-container .team-box-container .team-box .team-content p {
+    font-size: 12px;
+  }
+
+  .team-container .team-box-container .team-box .team-content .icons span {
+    font-size: 12px;
+  }
+
+}
+
+/* this css is for footer*/
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul {
+  list-style: none;
+}
+
+.footer {
+  background: linear-gradient(45deg, blueviolet, lightgreen);
+  border-radius: 10px;
+  padding: 70px 0;
+  margin: 20px;
+}
+
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+}
+
+.footer-col h4 {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+
+.footer-col h4::before {
+
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+  color: #ffffff;
+  padding-left: 8px;
+}
+
+.footer-col .social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+  color: #24262b;
+  background-color: #ffffff;
+}
+
+
+
+/*responsive*/
+@media(max-width: 767px) {
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+
+@media(max-width: 574px) {
+  .footer-col {
+    width: 100%;
+  }
+}
+
+/* this css is for home image container  #home.php comment*/
+
+.image-container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.image-container img {
+  vertical-align: middle;
+}
+
+.image-container .image-content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  /* Fallback color */
+  background: rgba(0, 0, 0, 0.5);
+  /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+/*this CSS is for rating section #home */
+/* Slideshow container */
+
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {
+  font-style: italic;
+}
+
+/* Add a blue color to the author */
+.author {
+  color: cornflowerblue;
+}
+
+
+/* this css is for note sesion in #Home.php comment*/
+.note {
+
+  border-radius: 25px;
+
+  width: 100%;
+  height: 10%;
+  ;
+  background-color: #fbfcfe;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 30px 12px;
+}
+
+
+.note .h2 {
+  text-align: left;
+}
+
+.danger {
+  background-color: #ffdddd;
+  border-left: 6px solid #f44336;
+  margin-bottom: 15px;
+  padding: 30px 15px;
+}
+
+.success {
+  background-color: #ddffdd;
+  border-left: 6px solid #04AA6D;
+}
+
+.info {
+  background-color: #e7f3fe;
+  border-left: 6px solid #2196F3;
+}
+
+
+.warning {
+  background-color: #ffffcc;
+  border-left: 6px solid #ffeb3b;
+}
+
+/* this css is for about section  in #about.php comment*/
+
+.about-section {
+  padding: 100px;
+  text-align: center;
+  background: linear-gradient(45deg, blueviolet, lightgreen);
+  color: white;
+  border-radius: 25px;
+  width: 85%;
+  margin: 100px;
+}
+
+.foot_er {
+  border-style: solid;
+
+  border-color: rgb(255, 253, 253);
+  padding: 20px;
+  margin: 20px;
+  width: 96.4%;
+}
+
+
+/*   This CSS is for contact */
+
+
+/* This CSS is for Loagin Page UI */
+div.body_head {
+  border-radius: 10px;
+  padding: 92px;
+  width: 1270px;
+  height: 500px;
+  margin: 20px;
+  background: linear-gradient(45deg, blueviolet, lightgreen);
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+div.text_row {
+  border-radius: 10px;
+  width: 500px;
+  height: 500px;
+  margin: 20px;
+  padding: 10px;
+  background: linear-gradient(45deg, blueviolet, lightgreen);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 20px;
+  display: grid;
+  float: left;
+}
+
+.profile_image image {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+
+.profile_image img {
+  margin-top: 120px;
+  display: block;
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border-radius: 20%;
+}
+
+.user-info {
+  text-align: center;
+  color: floralwhite;
+}
